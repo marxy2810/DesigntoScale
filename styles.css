@@ -1,0 +1,202 @@
+
+.company-logo {
+  width: 40%;
+}
+
+#title .container-fluid {
+  padding: 3% 10% 0%;
+  text-align: left;
+  z-index: 1;
+}
+
+#title {
+  background-color: #DBE2EF;
+}
+
+
+.title-heading {
+  padding: 7% 0% 0%;
+  position: absolute;
+  z-index: 1;
+}
+
+
+#footertext {
+  text-align: left;
+  padding: 3% 0% 0%;
+}
+
+#what-we-do {
+  position: relative;
+  padding-top: 100px;
+}
+
+#pricing {
+  padding: 0 5% 0;
+}
+
+
+span {
+  color: #3f72af;
+}
+
+.swoosh {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+  top: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #112d4e;
+  z-index: 1;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+
+body {
+background-color: #F9F7F7;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+
+
+.services-table {
+  margin: 10% 0% 10%;
+  text-align: left;
+}
+
+.services {
+  margin: 0% 20% 0%;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-right: 5%;
+}
+
+
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: 40px;
+}
+
+.mockup {
+  width: 90%;
+  position: relative;
+  right: 0%;
+}
+
+.btn-outline-dark {
+  background-color: #3f72af;
+  color: #f9f7f7;
+}
+
+.btn-outline-dark:hover {
+    background-color: #112D4E !important;
+}
+
+.wwd-icon {
+  margin: 1%;
+}
+
+.title-button {
+  margin: 5% 3% 5% 0;
+  color: #f9f7f7;
+}
+
+.branding {
+  text-align: center;
+  width: 100%;
+  padding-top: 2%;
+}
+
+
+
+@media (max-width: 1028px) {
+  #title .container-fluid {
+    text-align: left;
+  }
+
+  .title-heading {
+    text-align: center;
+  }
+
+  .mockup {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .company-logo {
+    width: 80%;
+  }
+
+  #what-we-do {
+    position: relative;
+  }
+
+  .title-heading {
+    position: relative;
+
+  }
+
+  #title-img {
+    display: none;
+  }
+
+  #footer {
+    text-align: left;
+
+  }
+
+}
+
+@media (max-width: 1350px) {
+
+  #title .container-fluid {
+    text-align: left;
+  }
+
+  .mockup {
+    position: relative;
+    transform: rotate(0);
+  }
+
+  .company-logo {
+    width: 80%;
+  }
+
+  #what-we-do {
+    position: relative;
+  }
+
+  .title-heading {
+    position: relative;
+  }
+
+  #title-img {
+    display: none;
+  }
+
+
+
+}
