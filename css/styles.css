@@ -34,6 +34,8 @@
 .navbar {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  font-size: 30px;
+
 }
 
 
@@ -190,6 +192,7 @@ background-color: #F9F7F7;
 
   #footer {
     text-align: center;
+    font-size: 30px;
   }
 
 }
