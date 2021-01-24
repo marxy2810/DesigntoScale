@@ -1,5 +1,5 @@
 .company-logo {
-  width: 40%;
+  width: 60%;
 }
 
 #title .container-fluid {
@@ -27,7 +27,7 @@
 }
 
 #footertext {
-  text-align: left;
+  text-align: center;
   padding: 3% 0% 0%;
 }
 
@@ -35,6 +35,24 @@
   text-align: center;
   width: 100%;
   padding-top: 2%;
+}
+
+.nav-item{
+   text-align: right;
+}
+
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  max-width: 600px;
+}
+
+.navbar {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 20px;
+
 }
 
 span {
@@ -246,9 +264,9 @@ background-color: #F9F7F7;
   }
 
   #footer {
-    text-align: left;
-
-  }
+      text-align: center;
+      font-size: 30px;
+    }
 
   .circles {
     flex-direction: column;
@@ -307,5 +325,10 @@ background-color: #F9F7F7;
   #title-img {
     display: none;
   }
+
+  #footer {
+      text-align: center;
+      font-size: 30px;
+    }
 
 }
