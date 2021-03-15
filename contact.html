@@ -34,7 +34,7 @@
         <!-- Nav Bar -->
 
         <nav class="navbar navbar-light  navbar-expand-lg" aria-label="Navbar">
-          <a class="navbar-brand" href="#title"><img src="images/Original-on-Transparent1.png" alt="company logo" class="company-logo" width="50" height="auto" alt="" loading="lazy"></a>
+          <a class="navbar-brand" href="index.html#title"><img src="images/Original-on-Transparent1.png" alt="company logo" class="company-logo" width="50" height="auto" alt="" loading="lazy"></a>
 
           <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,11 +42,11 @@
 
           <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active"><a class="nav-link" href="index.html#title">Home<span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="index.html#title">Home<span class="sr-only">(current)</span></a></li>
               <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
               <li class="nav-item"><a class="nav-link" href="index.html#what-we-do">Services</a></li>
               <li class="nav-item"><a class="nav-link" href="index.html#pricing">Pricing</a></li>
-              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              <li class="nav-item active"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -54,8 +54,7 @@
 
       <div class="title-heading">
         <h1 class="big-heading">DO YOU HAVE A <span>PROJECT</span> FOR US?</h1>
-        <p class="title-sub-heading">We would love to hear from you. Fill out the form below and we will be in touch!</p>
-        <button type="button" class="btn btn-outline-dark btn-lg title-button" onclick="location.href='#form'">Get Started!</button>
+        <p>We would love to hear from you. Fill out the form below and we will be in touch!</p>
       </div>
 
 
@@ -70,9 +69,73 @@
   <!-- Form -->
   <!-- =============== -->
 
-<div class="form" id="form">
-<iframe width="640px" height= "1360px" src= "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAACW5FHRUNVVZTk82RFFRMk41NlcySFkyMFFUSldONy4u&embed=true" frameborder= "0" marginwidth= "0" marginheight= "0" style= "border: none; max-width:100%; max-height:100%" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-</div>
+  <!-- Contact Us -->
+
+  <section class="contact" id="contact">
+
+
+    <form class="contactForm" action="index.html" method="post" name="contact" data-netlify="true">
+      <div class="form-row">
+        <div class="form-group col-lg-6">
+          <label for="firstName" class="form-label">First name</label>
+          <input type="text" class="form-control" id="firstName" name="fName" placeholder="" value="" required>
+          <div class="invalid-feedback">
+            Valid first name is required.
+          </div>
+        </div>
+
+        <div class="form-group col-lg-6">
+          <label for="lastName" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="lastName" name="lName" placeholder="" value="" required>
+          <div class="invalid-feedback">
+            Valid last name is required.
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-lg-6">
+          <label for="businessName" class="form-label">Business name</label>
+          <input type="text" class="form-control" id="businessName" name="bName" placeholder="" value="" required>
+          <div class="invalid-feedback">
+            Valid name is required.
+          </div>
+        </div>
+
+        <div class="form-group col-lg-6">
+          <label for="lastName" class="form-label">Website</label>
+          <input type="url" class="form-control" id="website" name="website" placeholder="If you have one!" value="">
+          <div class="invalid-feedback">
+            Valid URL is required.
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-lg-6">
+          <label for="number" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" id="number" name="number" placeholder="00000 000000" value="" required>
+          <div class="invalid-feedback">
+            Valid phone number is required.
+          </div>
+        </div>
+
+        <div class="form-group col-lg-6">
+          <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com">
+          <div class="invalid-feedback">
+            Please enter a valid email address.
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-outline-dark btn-lg">Submit</button>
+    </form>
+  </section>
 
   <!-- =============== -->
   <!-- Footer -->
@@ -100,7 +163,7 @@
         <div class="col-lg-3">
           <h5>Design to Scale Ltd.</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="mailto:info@designtoscale.co.uk">info@designtoscale.co.uk</a></li>
+            <li><a class="text-muted" href="mailto:design@designtoscale.co.uk">design@designtoscale.co.uk</a></li>
             <li><a class="text-muted" href="tel:+447875551284">07875 551284</a></li>
               <li class="text-muted">Belfast, Northern Ireland </li>
           </ul>

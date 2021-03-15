@@ -11,6 +11,7 @@
 
 #title {
   background-color: #DBE2EF;
+  min-height: 100vh;
 }
 
 
@@ -35,7 +36,6 @@
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   font-size: 20px;
-
 }
 
 
@@ -50,9 +50,12 @@
 }
 
 #pricing {
-  padding: 0 5% 0;
+  padding: 0 5% 0; !important
 }
 
+.pricingSubText {
+  padding: 2% 15% 2%;
+}
 
 span {
   color: #3f72af;
@@ -92,7 +95,12 @@ background-color: #F9F7F7;
 }
 
 .services {
-  margin: 0% 20% 0%;
+  margin: 0% 15% 0%;
+}
+
+.pricing-column {
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 /* Containers */
@@ -153,7 +161,7 @@ background-color: #F9F7F7;
 @media (max-width: 1028px) {
 
   p {
-    font-size: 40px;
+    font-size: 2rem;
   }
 
   h3 {
@@ -199,30 +207,42 @@ background-color: #F9F7F7;
 
 @media (max-width: 1350px) {
 
-  #title .container-fluid {
-    text-align: left;
+  .navbar {
+    font-size: 2rem;
   }
 
-  .mockup {
+  .navbar-toggler-icon {
+    width: 3em;
+    height: 3em;
+  }
+
+  .title-heading {
     position: relative;
-    transform: rotate(0);
+    padding: 10% 5% 10%;
   }
 
-  .company-logo {
-    width: 60%;
+  .big-heading {
+    padding: 10% 5% 10%;
+  }
+
+  .btn-outline-dark {
+    margin-bottom: 100px;
+    font-size: 2rem;
   }
 
   #what-we-do {
     position: relative;
   }
 
-  .title-heading {
-    position: relative;
+  .pricing-column {
+    padding-left: 0;
+    padding-right: 0;
   }
 
-  #title-img {
-    display: none;
+  .pricingSubText h3 {
+    padding-top: 5%;
   }
+
 
 
 

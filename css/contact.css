@@ -34,6 +34,7 @@
 #title {
   background-color: #DBE2EF;
   z-index: 0;
+  }
 }
 
 #footertext {
@@ -111,8 +112,10 @@ span {
     background-color: #112D4E !important;
 }
 
-#form {
-  height: 1400px;
+
+
+.contactForm {
+  padding: 0 15% 2%;
 }
 
 @media (max-width: 1028px) {
@@ -140,32 +143,52 @@ span {
       height: 560px;
   }
 
-  #form {
-    padding-top: 50px;
-  }
 
 }
 
 @media (max-width: 1650px) {
 
+  p {
+    font-size: 2rem;
+  }
+
   .company-logo {
     width: 80%;
   }
 
+  .navbar {
+    font-size: 2rem;
+  }
+
+  .navbar-toggler-icon {
+    width: 3em;
+    height: 3em;
+  }
+
   .title-heading {
+    padding: 5% 15% 5%;
     position: relative;
   }
 
-  #title-img {
-    display: none;
-  }
-
   .header-section {
-      height: 560px;
+      height: 600px;
   }
 
-  #form {
-    padding-top: 50px;
+  .contactForm {
+    padding: 2% 25% 2%;
+  }
+
+  label {
+    font-size: 2rem;
+  }
+
+  .form-control {
+    font-size: 1.75rem;
+  }
+
+  .btn-outline-dark {
+    margin-bottom: 100px;
+    font-size: 2rem;
   }
 
 }
