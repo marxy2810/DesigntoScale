@@ -161,7 +161,7 @@ background-color: #F9F7F7;
 @media (max-width: 1028px) {
 
   p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   h3 {
@@ -208,12 +208,12 @@ background-color: #F9F7F7;
 @media (max-width: 1350px) {
 
   .navbar {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .navbar-toggler-icon {
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
   }
 
   .title-heading {
@@ -223,6 +223,7 @@ background-color: #F9F7F7;
 
   .big-heading {
     padding: 10% 5% 10%;
+    font-size: 2.5rem;
   }
 
   .btn-outline-dark {
