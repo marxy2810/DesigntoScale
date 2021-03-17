@@ -127,9 +127,10 @@ background-color: #F9F7F7;
 }
 
 .mockup {
-  width: 90%;
+  width: 120%;
   position: relative;
-  right: 0%;
+  right: 20%;
+  bottom: 15%;
 }
 
 .btn-outline-dark {
@@ -177,8 +178,8 @@ background-color: #F9F7F7;
   }
 
   .mockup {
-    position: static;
-    transform: rotate(0);
+    position: relative;
+    right: 10%;
   }
 
   .company-logo {
